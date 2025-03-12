@@ -8,10 +8,19 @@ using System.Text;
 
 namespace WalletTransfer.API.Controllers
 {
+    /// <summary>
+    /// Controlador para gestionar las sesiones.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController: ControllerBase
     {
+        /// <summary>
+        /// Este metodo permite logearse y obtener el token para poder utilizar los demas metodos.
+        /// </summary>
+        /// <param name="Username">Usuario</param>
+        /// <param name="Password">Contraseña</param>
+        /// <returns>Logeo exitoso</returns>
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
