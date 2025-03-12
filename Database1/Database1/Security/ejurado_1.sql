@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [ejurado]
-    WITH PASSWORD = N'vdmkvnnmm_iszjrqvRx!KbaqmsFT7_&#$!~<je25e`o7yxei', SID = 0x13CA57E531FFE44391373D601516B6E5, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
-
